@@ -8,12 +8,12 @@ public class RPG_Game {
     public static Random random =new Random();
 
     public static void start() {
-        Boss boss = new Boss(400, 50);
-        Warrior warrior = new Warrior(250, 10);
-        Tank tank = new Tank(250, 10);
-        Magic magic = new Magic(250, 10);
-        Medic medic = new Medic(300, 5, 15);
-        Medic youngMedic = new Medic(300, 8, 10);
+        Boss boss = new Boss(1000, 50);
+        Warrior warrior = new Warrior(150, 10 );
+        Tank tank = new Tank(150, 60);
+        Magic magic = new Magic(150, 10);
+        Medic medic = new Medic(200, 5, 15);
+        Medic youngMedic = new Medic(200, 8, 10);
 
         Hero[] heroes = {warrior, tank, magic, medic, youngMedic};
 

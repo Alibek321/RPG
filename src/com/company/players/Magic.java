@@ -17,6 +17,7 @@ public class Magic extends Hero {
             for (int i = 0; i < heroes.length; i++) {
                 if (heroes[i].getHealth() > 0) {
                     heroes[i].setDamage(heroes[i].getDamage() + multiplyDamage);
+
                 }
             }
         }
